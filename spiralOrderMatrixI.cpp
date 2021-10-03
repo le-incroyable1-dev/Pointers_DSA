@@ -1,3 +1,5 @@
+// Store a matrix(2D array) in spiral order in a 1D array
+
 vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
     int dir = 0;
     vector<int> B;
