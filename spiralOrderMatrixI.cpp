@@ -1,5 +1,10 @@
 // Store a matrix(2D array) in spiral order in a 1D array
 
+/*
+This is one of the fastest possible solutions to this problem
+Each direction of traversal across the 2d array is assigned a number in
+order to decide the algo
+*/
 vector<int> Solution::spiralOrder(const vector<vector<int> > &A) {
     int dir = 0;
     vector<int> B;
